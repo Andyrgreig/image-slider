@@ -1,0 +1,56 @@
+body {
+  background-color: black;
+}
+
+.slider,
+.controls {
+  margin: 50px;
+  height: 560px;
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider img {
+  height: 95%;
+  width: 95%;
+  margin: 5px;
+  display: none;
+}
+
+.controls img {
+  height: 25px;
+  width: 25px;
+}
+
+.slider .first {
+  display: block;
+}
+
+.controls .first {
+  background-color: gray;
+}
+
+.controls {
+  height: 50px;
+  background-color: black;
+}
+
+#back,
+#forward {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+button {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  margin: 5px;
+}
